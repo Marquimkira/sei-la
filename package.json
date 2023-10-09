@@ -4,9 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite --open",
+    "lint": "npx eslint ./src"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "clipboard-copy": "^4.0.1",
+    "nanoid": "^5.0.1",
+    "vite": "^4.4.11"
+  },
+  "type": "module",
+  "devDependencies": {
+    "eslint": "^8.51.0"
+  }
 }
